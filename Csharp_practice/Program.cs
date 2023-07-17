@@ -45,75 +45,36 @@
             }*/
 
             //Switch statement 
-            /* Console.WriteLine("Enter the day number.");
-             int dayOfWeek = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the day number.");
+            int dayOfWeek = int.Parse(Console.ReadLine());
 
-             switch (dayOfWeek)
-             {
-                 case 1:
-                     Console.WriteLine("It's Sunday!");
-                     break;
-                 case 2:
-                     Console.WriteLine("It's Monday!");
-                     break;
-                 case 3:
-                     Console.WriteLine("It's Tuesday!");
-                     break;
-                 case 4:
-                     Console.WriteLine("It's Wednesday!");
-                     break;
-                 case 5:
-                     Console.WriteLine("It's Thursday!");
-                     break;
-                 case 6:
-                     Console.WriteLine("It's Friday!");
-                     break;
-                 case 7:
-                     Console.WriteLine("It's Saturday!");
-                     break;
-
-                 default:
-                     Console.WriteLine("Invalid!");
-                     break;
-             }*/
-
-            //Loops in C#
-            string[] cars = { "Mercedes", "Lamborghini", "Bugatti", "Mclaren" };
-            //For Loop
-            Console.WriteLine("Using for loop");
-            for(int i=0; i < cars.Length; i++)
+            switch (dayOfWeek)
             {
-                Console.Write(cars[i] + " ");
-            }
-            Console.WriteLine("\n\nUsing while loop");
-            int j = 0;
-            while(j < cars.Length)
-            {
-                Console.Write(cars[j] + " ");
-                j++;
-            }
-            Console.WriteLine("\n\nUsing foreach loop");
-            foreach(string car in cars)
-            {
-                Console.Write(car + " ");
-            }
-            Console.WriteLine("\n\nUsing break statement");
-            for (int i = 0; i < cars.Length; i++)
-            {
-                if (i == 2)
-                {
+                case 1:
+                    Console.WriteLine("It's Sunday!");
                     break;
-                }
-                Console.Write(cars[i] + " ");
-            }
-            Console.WriteLine("\n\nUsing continue statement");
-            for (int i = 0; i < cars.Length; i++)
-            {
-                if (i == 2)
-                {
-                    continue;
-                }
-                Console.Write(cars[i] + " ");
+                case 2:
+                    Console.WriteLine("It's Monday!");
+                    break;
+                case 3:
+                    Console.WriteLine("It's Tuesday!");
+                    break;
+                case 4:
+                    Console.WriteLine("It's Wednesday!");
+                    break;
+                case 5:
+                    Console.WriteLine("It's Thursday!");
+                    break;
+                case 6:
+                    Console.WriteLine("It's Friday!");
+                    break;
+                case 7:
+                    Console.WriteLine("It's Saturday!");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid!");
+                    break;
             }
         }
     }
