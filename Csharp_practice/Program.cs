@@ -21,10 +21,10 @@
             Console.WriteLine("Double d = " + d);
             Console.WriteLine("Decimal e = " + e);
             Console.WriteLine("Datetime = " + todayDate);
-            Console.WriteLine("Nullable = " + nullableInt);*//*
+            Console.WriteLine("Nullable = " + nullableInt);
 
             // Using if-else statement
-            *//*Console.WriteLine("Enter your age.");
+            Console.WriteLine("Enter your age.");
             // Taking input from user
             int age = Console.Read();
             if (age < 5)
@@ -42,15 +42,16 @@
             else
             {
                 Console.WriteLine("You are a senior citizen.");
-            }*//*
-
+            }
+*//*
             //Switch statement 
-            Console.WriteLine("Enter the day number.");
+            *//*Console.WriteLine("Enter the day number.");
             int dayOfWeek = int.Parse(Console.ReadLine());
 
             switch (dayOfWeek)
             {
                 case 1:
+                case 0:
                     Console.WriteLine("It's Sunday!");
                     break;
                 case 2:
@@ -75,7 +76,8 @@
                 default:
                     Console.WriteLine("Invalid!");
                     break;
-            }
+            }*//*
+
         }
     }
 }*/

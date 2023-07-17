@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,7 @@ namespace Csharp_practice
         {
             List<string> bikes = new List<string> { "Ducati", "Yamaha", "MV Agusta", "Kawasaki" };
             List<string> cars = new List<string> { "Lamborghini", "Mercedes", "Rolls Royace", "Bugatti" };
-            List<int> nums = new List<int> { 17, 333, 18, 45, 15 };
+            List<int> nums = new List<int> { 2, 6, 14, 24, 17, 333, 18, 45, 15 };
             foreach(string bike in bikes)
             {
                 Console.Write(bike + ", ");
@@ -43,6 +43,10 @@ namespace Csharp_practice
             {
                 Console.Write(car + ", ");
             }
+            //Finding elements in the list
+            List<int> number = new List<int> nums.Find(n => n > 40);
+            Console.Write("\n\nElements in nums that are greater than 40: " + number);
         }
     }
 }
+*/
