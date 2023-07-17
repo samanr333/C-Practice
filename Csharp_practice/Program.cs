@@ -1,11 +1,11 @@
-﻿namespace Csharp_practice
+﻿/*namespace Csharp_practice
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             // Datatypes in C#
-            /*int a = 5;
+            *//*int a = 5;
             //Floats are suffixed with f
             float b = 5.9f;
             char c = 's';
@@ -21,10 +21,10 @@
             Console.WriteLine("Double d = " + d);
             Console.WriteLine("Decimal e = " + e);
             Console.WriteLine("Datetime = " + todayDate);
-            Console.WriteLine("Nullable = " + nullableInt);*/
+            Console.WriteLine("Nullable = " + nullableInt);*//*
 
             // Using if-else statement
-            /*Console.WriteLine("Enter your age.");
+            *//*Console.WriteLine("Enter your age.");
             // Taking input from user
             int age = Console.Read();
             if (age < 5)
@@ -42,7 +42,7 @@
             else
             {
                 Console.WriteLine("You are a senior citizen.");
-            }*/
+            }*//*
 
             //Switch statement 
             Console.WriteLine("Enter the day number.");
@@ -78,4 +78,4 @@
             }
         }
     }
-}
+}*/

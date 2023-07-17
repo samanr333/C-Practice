@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Csharp_practice
 {
-    internal class loops
+    internal class Loops
     {
         static void Main(String[] args)
         {
@@ -55,3 +55,4 @@ namespace Csharp_practice
         }
     }
 }
+*/

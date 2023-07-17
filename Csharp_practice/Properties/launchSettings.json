@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Csharp_practice": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
