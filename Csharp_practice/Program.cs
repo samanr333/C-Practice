@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-
-            int a = 5;
+            // Datatypes in C#
+            /*int a = 5;
             //Floats are suffixed with f
             float b = 5.9f;
             char c = 's';
@@ -21,10 +21,10 @@
             Console.WriteLine("Double d = " + d);
             Console.WriteLine("Decimal e = " + e);
             Console.WriteLine("Datetime = " + todayDate);
-            Console.WriteLine("Nullable = " + nullableInt);
+            Console.WriteLine("Nullable = " + nullableInt);*/
 
             // Using if-else statement
-            Console.WriteLine("Enter your age.");
+            /*Console.WriteLine("Enter your age.");
             // Taking input from user
             int age = Console.Read();
             if (age < 5)
@@ -42,7 +42,40 @@
             else
             {
                 Console.WriteLine("You are a senior citizen.");
+            }*/
+
+            //Switch statement 
+            Console.WriteLine("Enter the day number.");
+            int dayOfWeek = int.Parse(Console.ReadLine());
+
+            switch (dayOfWeek)
+            {
+                case 1:
+                    Console.WriteLine("It's Monday!");
+                    break;
+                case 2:
+                    Console.WriteLine("It's Tuesday!");
+                    break;
+                case 3:
+                    Console.WriteLine("It's Wednesday!");
+                    break;
+                case 4:
+                    Console.WriteLine("It's Thursday!");
+                    break;
+                case 5:
+                    Console.WriteLine("It's Friday!");
+                    break;
+                case 6:
+                    Console.WriteLine("It's Saturday!");
+                    break;
+                case 7:
+                    Console.WriteLine("It's Sunday!");
+                    break;
+                default:
+                    Console.WriteLine("Invalid!");
+                    break;
             }
+
         }
     }
 }
