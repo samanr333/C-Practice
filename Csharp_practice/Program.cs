@@ -21,8 +21,28 @@
             Console.WriteLine("Double d = " + d);
             Console.WriteLine("Decimal e = " + e);
             Console.WriteLine("Datetime = " + todayDate);
-            Console.WriteLine("Nullable = " + nullableInt);            
-         
+            Console.WriteLine("Nullable = " + nullableInt);
+
+            // Using if-else statement
+            Console.WriteLine("Enter your age.");
+            // Taking input from user
+            int age = Console.Read();
+            if (age < 5)
+            {
+                Console.WriteLine("You are a baby.");
+            }
+            else if (age < 19)
+            {
+                Console.WriteLine("You are a teenager.");
+            }
+            else if (age < 60)
+            {
+                Console.WriteLine("You are an adult.");
+            }
+            else
+            {
+                Console.WriteLine("You are a senior citizen.");
+            }
         }
     }
 }
