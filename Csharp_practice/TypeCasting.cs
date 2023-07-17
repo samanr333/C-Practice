@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,8 +24,9 @@ namespace Csharp_practice
             Console.WriteLine("\nExplicit Typecasting:");
             int a = 5;
             int b = 3;
-            int sum = (float)a / (float)b;
+            float sum = (float)a / (float)b;
             Console.WriteLine(sum);
         }
     }
 }
+*/
