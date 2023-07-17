@@ -106,15 +106,7 @@
                 }
                 Console.Write(cars[i] + " ");
             }
-            Console.WriteLine("\n\nUsing continue statement");
-            for (int i = 0; i < cars.Length; i++)
-            {
-                if (i == 2)
-                {
-                    continue;
-                }
-                Console.Write(cars[i] + " ");
-            }
+            
         }
     }
 }
