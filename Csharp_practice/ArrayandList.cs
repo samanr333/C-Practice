@@ -10,30 +10,39 @@ namespace Csharp_practice
     {
         static void Main(string[] args)
         {
-            List<string> cars = new List<string> { "Ducati", "Yamaha", "MV Agusta", "Kawasaki" };
+            List<string> bikes = new List<string> { "Ducati", "Yamaha", "MV Agusta", "Kawasaki" };
+            List<string> cars = new List<string> { "Lamborghini", "Mercedes", "Rolls Royace", "Bugatti" };
             List<int> nums = new List<int> { 17, 333, 18, 45, 15 };
-            foreach(string car in cars)
+            foreach(string bike in bikes)
             {
-                Console.Write(car + ", ");
+                Console.Write(bike + ", ");
             }
             Console.Write("\n");
             foreach(int num in nums)
             {
                 Console.Write(num + ", ");
             }
-            cars.Add("Harley Davidson");
+            // Adding elements to the list
+            bikes.Add("Harley Davidson");
             nums.Add(29);
-            Console.WriteLine("\nAfter adding to the list:");
-            foreach (string car in cars)
+            // After adding elements to the list
+            Console.WriteLine("\n\nAfter adding to the list:");
+            foreach (string bike in bikes)
             {
-                Console.Write(car + ", ");
+                Console.Write(bike + ", ");
             }
             Console.Write("\n");
             foreach (int num in nums)
             {
                 Console.Write(num + ", ");
             }
-
+            //Adding list to list
+            cars.AddRange(bikes);
+            Console.WriteLine("\n\nAfter adding to the list:");
+            foreach (string car in cars)
+            {
+                Console.Write(car + ", ");
+            }
         }
     }
 }
