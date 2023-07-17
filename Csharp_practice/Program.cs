@@ -80,9 +80,40 @@
             //Loops in C#
             string[] cars = { "Mercedes", "Lamborghini", "Bugatti", "Mclaren" };
             //For Loop
+            Console.WriteLine("Using for loop");
             for(int i=0; i < cars.Length; i++)
             {
-                Console.WriteLine(cars[i]);
+                Console.Write(cars[i] + " ");
+            }
+            Console.WriteLine("\n\nUsing while loop");
+            int j = 0;
+            while(j < cars.Length)
+            {
+                Console.Write(cars[j] + " ");
+                j++;
+            }
+            Console.WriteLine("\n\nUsing foreach loop");
+            foreach(string car in cars)
+            {
+                Console.Write(car + " ");
+            }
+            Console.WriteLine("\n\nUsing break statement");
+            for (int i = 0; i < cars.Length; i++)
+            {
+                if (i == 2)
+                {
+                    break;
+                }
+                Console.Write(cars[i] + " ");
+            }
+            Console.WriteLine("\n\nUsing continue statement");
+            for (int i = 0; i < cars.Length; i++)
+            {
+                if (i == 2)
+                {
+                    continue;
+                }
+                Console.Write(cars[i] + " ");
             }
         }
     }
