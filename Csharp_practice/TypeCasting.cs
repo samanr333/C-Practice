@@ -1,6 +1,7 @@
 ﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Quic;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,8 +25,8 @@ namespace Csharp_practice
             Console.WriteLine("\nExplicit Typecasting:");
             int a = 5;
             int b = 3;
-            float sum = (float)a / (float)b;
-            Console.WriteLine(sum);
+            float quotient = (float) a / b;
+            Console.WriteLine(quotient);
         }
     }
 }

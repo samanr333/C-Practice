@@ -1,0 +1,15 @@
+C:\Project\Csharp_practice\Inheritance1\bin\Debug\net7.0\Inheritance1.exe
+C:\Project\Csharp_practice\Inheritance1\bin\Debug\net7.0\Inheritance1.deps.json
+C:\Project\Csharp_practice\Inheritance1\bin\Debug\net7.0\Inheritance1.runtimeconfig.json
+C:\Project\Csharp_practice\Inheritance1\bin\Debug\net7.0\Inheritance1.dll
+C:\Project\Csharp_practice\Inheritance1\bin\Debug\net7.0\Inheritance1.pdb
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.csproj.AssemblyReference.cache
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.AssemblyInfoInputs.cache
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.AssemblyInfo.cs
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.csproj.CoreCompileInputs.cache
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.dll
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\refint\Inheritance1.dll
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.pdb
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\Inheritance1.genruntimeconfig.cache
+C:\Project\Csharp_practice\Inheritance1\obj\Debug\net7.0\ref\Inheritance1.dll
