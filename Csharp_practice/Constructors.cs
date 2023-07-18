@@ -34,7 +34,7 @@ namespace Csharp_practice
             Console.WriteLine("\nInfo of first Athleat: ");
             Console.WriteLine("Name: " + athleat1.Name + " Age: " + athleat1.Age + " Sports: " + athleat1.Sports);
 
-            AthleatInfo athleat2 = new AthleatInfo("Lewis Hamilton", 38, "F1");
+            AthleatInfo athleat2 = new AthleatInfo("Lewis Hamilton", 38, "Formula1");
             Console.WriteLine("\nInfo of second Athleat: ");
             Console.WriteLine("Name: " + athleat2.Name + " Age: " + athleat2.Age + " Sports: " + athleat2.Sports);
 
