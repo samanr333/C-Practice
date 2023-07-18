@@ -1,0 +1,15 @@
+C:\Project\Csharp_practice\Interface\bin\Debug\net7.0\Interface.exe
+C:\Project\Csharp_practice\Interface\bin\Debug\net7.0\Interface.deps.json
+C:\Project\Csharp_practice\Interface\bin\Debug\net7.0\Interface.runtimeconfig.json
+C:\Project\Csharp_practice\Interface\bin\Debug\net7.0\Interface.dll
+C:\Project\Csharp_practice\Interface\bin\Debug\net7.0\Interface.pdb
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.csproj.AssemblyReference.cache
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.AssemblyInfoInputs.cache
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.AssemblyInfo.cs
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.csproj.CoreCompileInputs.cache
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.dll
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\refint\Interface.dll
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.pdb
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\Interface.genruntimeconfig.cache
+C:\Project\Csharp_practice\Interface\obj\Debug\net7.0\ref\Interface.dll

@@ -50,22 +50,29 @@ namespace Inheritance
         public override void displayInfo()
         {
             base.displayInfo();
-            Console.WriteLine("Range: " + range + " kWh");
+            Console.WriteLine($"Range: {range} km");
         }
     }
 
+    public class TwoWheeler
+    {
+        public TwoWheeler()
+        {
+            Console.WriteLine("This is a two wheeler");
+        }
+    }
 
     public class Program
     {
         public static void Main(string[] args)
         {
             // Single inheritance example
-            Console.WriteLine("Single level inheritance");
+            Console.WriteLine("Single level inheritance:");
             Car car = new Car("Bugatti", "Veyron");
             car.displayInfo();
 
             //Multi level inheritance
-            Console.WriteLine("\nMulti level inheritance");
+            Console.WriteLine("\nMulti level inheritance:");
             ElectricCar electricCar = new ElectricCar("Tesla", "S", 663);
             electricCar.displayInfo();
         }
