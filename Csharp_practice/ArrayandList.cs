@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,12 +19,12 @@ namespace Csharp_practice
             List<string> bikes = new List<string> { "Ducati", "Yamaha", "MV Agusta", "Kawasaki" };
             List<string> cars = new List<string> { "Lamborghini", "Mercedes", "Rolls Royace", "Bugatti" };
             List<int> nums = new List<int> { 2, 6, 14, 24, 17, 18, 45, 15 };
-            foreach(string bike in bikes)
+            foreach (string bike in bikes)
             {
                 Console.Write(bike + ", ");
             }
             Console.Write("\n");
-            foreach(int num in nums)
+            foreach (int num in nums)
             {
                 Console.Write(num + ", ");
             }
@@ -59,7 +59,7 @@ namespace Csharp_practice
             players.Add(new Info { name = "AB De Villiers", age = 39 });
             players.Add(new Info { name = "Virat Kohli", age = 34 });
 
-            foreach(Info player in players)
+            foreach (Info player in players)
             {
                 Console.WriteLine("Name: " + player.name + ", " + "Age: " + player.age);
             }
@@ -67,3 +67,4 @@ namespace Csharp_practice
         }
     }
 }
+*/

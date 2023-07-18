@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            // Datatypes in C#
-            *//*int a = 5;
+            *//*// Datatypes in C#
+            int a = 5;
             //Floats are suffixed with f
             float b = 5.9f;
             char c = 's';
@@ -42,10 +42,10 @@
             else
             {
                 Console.WriteLine("You are a senior citizen.");
-            }
-*//*
+            }*//*
+
             //Switch statement 
-            *//*Console.WriteLine("Enter the day number.");
+            Console.WriteLine("Enter the day number.");
             int dayOfWeek = int.Parse(Console.ReadLine());
 
             switch (dayOfWeek)
@@ -76,7 +76,7 @@
                 default:
                     Console.WriteLine("Invalid!");
                     break;
-            }*//*
+            }
 
         }
     }

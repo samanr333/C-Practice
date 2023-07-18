@@ -31,8 +31,8 @@ namespace Csharp_practice
             Console.WriteLine("The sum of 2 and 3 is " + calculator.add(2, 3));
             Console.WriteLine("The sum of 2.9 and 3.6 is " + calculator.add(2.9, 3.6));
             Console.WriteLine("The sum of 5, 2 and 3 is " + calculator.add(5, 2, 3));
-        }       
+        }
     }
-  
+
 }
 */
