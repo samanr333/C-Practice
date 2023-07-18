@@ -28,24 +28,46 @@ namespace Inheritance
         public Car(string brand, string model) : base(brand)
         {
             this.model = model;
+            Console.WriteLine("This is a Car.");
         }
 
         public override void displayInfo()
         {
-            Console.WriteLine("This is a Car: ");
             base.displayInfo();
             Console.WriteLine("Model: " + model);
         }
     }
+    // Using multilevel inheritance
+    public class ElectricCar : Car
+    {
+        protected int range;
+
+        public ElectricCar(string brand, string model, int range) : base(brand, model)
+        {
+            this.range = range;
+        }
+
+        public override void displayInfo()
+        {
+            base.displayInfo();
+            Console.WriteLine("Range: " + range + " kWh");
+        }
+    }
+
 
     public class Program
     {
         public static void Main(string[] args)
         {
             // Single inheritance example
+            Console.WriteLine("Single level inheritance");
             Car car = new Car("Bugatti", "Veyron");
             car.displayInfo();
-            Console.WriteLine();
+
+            //Multi level inheritance
+            Console.WriteLine("\nMulti level inheritance");
+            ElectricCar electricCar = new ElectricCar("Tesla", "S", 663);
+            electricCar.displayInfo();
         }
     }
 }
