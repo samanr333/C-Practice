@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-﻿/*using System;
-=======
+/*
 ﻿using System;
->>>>>>> e2846191e0dda275769b99f7e744cfe5bdbc9664
+﻿using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,7 +44,5 @@ namespace Csharp_practice
         }
     }
 }
-<<<<<<< HEAD
+
 */
-=======
->>>>>>> e2846191e0dda275769b99f7e744cfe5bdbc9664

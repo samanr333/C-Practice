@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using Inheritance1;
+using System.Reflection;
 using System.Runtime.Intrinsics.X86;
 using System.Security.Cryptography.X509Certificates;
 
@@ -7,7 +8,7 @@ namespace Inheritance
     // This is base class
     public class Vehicle
     {
-        protected string brand;
+        public string brand;
 
         public Vehicle(string brand)
         {
@@ -21,7 +22,7 @@ namespace Inheritance
     }
 
     // Using single inheritance
-    public class Car : Vehicle
+/*    public class Car : Vehicle
     {
         protected string model;
 
@@ -36,7 +37,7 @@ namespace Inheritance
             base.displayInfo();
             Console.WriteLine("Model: " + model);
         }
-    }
+    }*/
     // Using multilevel inheritance
     public class ElectricCar : Car
     {
@@ -63,6 +64,7 @@ namespace Inheritance
             Console.WriteLine("Single level inheritance");
             Car car = new Car("Bugatti", "Veyron");
             car.displayInfo();
+            
 
             //Multi level inheritance
             Console.WriteLine("\nMulti level inheritance");
