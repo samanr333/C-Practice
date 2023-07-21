@@ -8,6 +8,10 @@
         {
             return x.Equals(x.ToUpper());
         }
+        static bool isEven(double z)
+        {
+            return z % 2 == 0;
+        }
         static void greet(string name)
         {
             Console.WriteLine($"Hello, Good morning {name}");
@@ -71,6 +75,10 @@
             Func<double, double, double> add = sum;
             var result = add(p, q);
             Console.WriteLine("The sum of {0} and {1} is {2} ", p, q, result);
+            // To check if the sum in Func delegate is true using predicate delegate
+            Predicate<double> isEvenNum = isEven;
+            Console.WriteLine($"The sum is even: {isEvenNum(result)}");
+
 
             // Action Delegates
             Console.WriteLine("Action Delegate: ");
