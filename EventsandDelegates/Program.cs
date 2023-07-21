@@ -2,9 +2,12 @@
 {
     public delegate void Calculation(double a, double b);
     public delegate void Calculation1(double x);
-    public delegate void greet(string name);
     internal class Program
     {
+        static bool isUpperCase(string x)
+        {
+            return x.Equals(x.ToUpper());
+        }
         static void greet(string name)
         {
             Console.WriteLine($"Hello, Good morning {name}");
@@ -75,6 +78,13 @@
             string name = Console.ReadLine();
             Action<string> printActionDel = greet;
             printActionDel(name);
+
+            //Predicate Delegates
+            Console.WriteLine("Predicate Delegate:");
+            Predicate<string> isUpper =  isUpperCase;
+            bool res = isUpper(name);
+            Console.WriteLine(res);
+
         }
     }
 }
