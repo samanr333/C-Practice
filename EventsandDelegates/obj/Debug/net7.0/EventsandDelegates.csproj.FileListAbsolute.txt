@@ -1,0 +1,15 @@
+C:\Project\Csharp_practice\EventsandDelegates\bin\Debug\net7.0\EventsandDelegates.exe
+C:\Project\Csharp_practice\EventsandDelegates\bin\Debug\net7.0\EventsandDelegates.deps.json
+C:\Project\Csharp_practice\EventsandDelegates\bin\Debug\net7.0\EventsandDelegates.runtimeconfig.json
+C:\Project\Csharp_practice\EventsandDelegates\bin\Debug\net7.0\EventsandDelegates.dll
+C:\Project\Csharp_practice\EventsandDelegates\bin\Debug\net7.0\EventsandDelegates.pdb
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.csproj.AssemblyReference.cache
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.AssemblyInfoInputs.cache
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.AssemblyInfo.cs
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.csproj.CoreCompileInputs.cache
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.dll
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\refint\EventsandDelegates.dll
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.pdb
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\EventsandDelegates.genruntimeconfig.cache
+C:\Project\Csharp_practice\EventsandDelegates\obj\Debug\net7.0\ref\EventsandDelegates.dll

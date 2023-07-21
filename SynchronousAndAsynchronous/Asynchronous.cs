@@ -40,12 +40,6 @@ namespace SynchronousAndAsynchronous
             Console.WriteLine("Task 4 Started");
             await Task.Delay(3000);
             Console.WriteLine("Task 4 completed");
-            /*await Task.Run(() =>
-            {
-                Console.WriteLine("Task 4 Started");
-                Thread.Sleep(3000);
-                Console.WriteLine("Task 4 completed");
-            });*/
         }
         public static void Main(string[] args)
         {
