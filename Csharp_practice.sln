@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance1", "Inheritance1\Inheritance1.csproj", "{D2A90D3B-BC4E-4398-AC37-35555C39E561}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronousAndAsynchronous", "SynchronousAndAsynchronous\SynchronousAndAsynchronous.csproj", "{73386D03-089E-4E72-9123-86F283FB5D63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D2A90D3B-BC4E-4398-AC37-35555C39E561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A90D3B-BC4E-4398-AC37-35555C39E561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A90D3B-BC4E-4398-AC37-35555C39E561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73386D03-089E-4E72-9123-86F283FB5D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73386D03-089E-4E72-9123-86F283FB5D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73386D03-089E-4E72-9123-86F283FB5D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73386D03-089E-4E72-9123-86F283FB5D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

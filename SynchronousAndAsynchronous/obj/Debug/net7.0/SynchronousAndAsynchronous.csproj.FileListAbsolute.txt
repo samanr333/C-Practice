@@ -1,0 +1,15 @@
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\bin\Debug\net7.0\SynchronousAndAsynchronous.exe
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\bin\Debug\net7.0\SynchronousAndAsynchronous.deps.json
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\bin\Debug\net7.0\SynchronousAndAsynchronous.runtimeconfig.json
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\bin\Debug\net7.0\SynchronousAndAsynchronous.dll
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\bin\Debug\net7.0\SynchronousAndAsynchronous.pdb
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.csproj.AssemblyReference.cache
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.AssemblyInfoInputs.cache
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.AssemblyInfo.cs
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.csproj.CoreCompileInputs.cache
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.dll
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\refint\SynchronousAndAsynchronous.dll
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.pdb
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\SynchronousAndAsynchronous.genruntimeconfig.cache
+C:\Project\Csharp_practice\SynchronousAndAsynchronous\obj\Debug\net7.0\ref\SynchronousAndAsynchronous.dll
