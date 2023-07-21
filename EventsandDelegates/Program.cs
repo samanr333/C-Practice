@@ -2,8 +2,17 @@
 {
     public delegate void Calculation(double a, double b);
     public delegate void Calculation1(double x);
+    public delegate void greet(string name);
     internal class Program
     {
+        static void greet(string name)
+        {
+            Console.WriteLine($"Hello, Good morning {name}");
+        }
+        static double sum(double a, double b)
+        {
+            return a + b;
+        }
         protected static void Add(double a, double b)
         {
             Console.WriteLine($"The sum is: {a + b}");
@@ -49,12 +58,23 @@
             calculation1(x);
             calculation1 = Cube;
             calculation1(x);
-            // Func delegate
+
+            // Func Delegate
             Console.WriteLine("Func Delegate: ");
-            Func<double, double, double> add = Add;
-            var result = add(a, b);
+            Console.WriteLine("Enter two numbers.");
+            double p = double.Parse(Console.ReadLine());
+            double q = double.Parse(Console.ReadLine());
+
+            Func<double, double, double> add = sum;
+            var result = add(p, q);
             Console.WriteLine("The sum of {0} and {1} is {2} ", p, q, result);
 
+            // Action Delegates
+            Console.WriteLine("Action Delegate: ");
+            Console.WriteLine("Enter your name.");
+            string name = Console.ReadLine();
+            Action<string> printActionDel = greet;
+            printActionDel(name);
         }
     }
 }
