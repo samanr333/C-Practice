@@ -1,4 +1,4 @@
-﻿/*namespace EventsandDelegates
+﻿namespace EventsandDelegates
 {
     public delegate void Calculation(double a, double b);
     public delegate void Calculation1(double x);
@@ -23,7 +23,7 @@
         protected static void Square(double x)
         {
             double square = x * x;
-            Console.WriteLine("The square of {0} is {1}", x, square) ;
+            Console.WriteLine("The square of {0} is {1}", x, square);
         }
         protected static void Cube(double x)
         {
@@ -49,6 +49,12 @@
             calculation1(x);
             calculation1 = Cube;
             calculation1(x);
+            // Func delegate
+            Console.WriteLine("Func Delegate: ");
+            Func<double, double, double> add = Add;
+            var result = add(a, b);
+            Console.WriteLine("The sum of {0} and {1} is {2} ", p, q, result);
+
         }
     }
-}*/
+}

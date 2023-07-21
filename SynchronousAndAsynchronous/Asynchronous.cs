@@ -47,7 +47,7 @@ namespace SynchronousAndAsynchronous
             Task2();
             Task3();
             Task4();
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
