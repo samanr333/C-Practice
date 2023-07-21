@@ -5,6 +5,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>saman</PackageId>
+    <Title>Saman</Title>
+    <Version>1.0.0</Version>
+    <Authors>Saman</Authors>
+    <Company>Saman</Company>
+    <Product>Interface</Product>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>

@@ -76,14 +76,14 @@
             Console.WriteLine("Action Delegate: ");
             Console.WriteLine("Enter your name.");
             string name = Console.ReadLine();
-            Action<string> printActionDel = greet;
-            printActionDel(name);
+            Action<string> greetMe = greet;
+            greetMe(name);
 
             //Predicate Delegates
             Console.WriteLine("Predicate Delegate:");
-            Predicate<string> isUpper =  isUpperCase;
-            bool res = isUpper(name);
-            Console.WriteLine(res);
+            Predicate<string> upperCase =  isUpperCase;
+            bool res = upperCase(name);
+            Console.WriteLine($"Is uppercase: {res}");
 
         }
     }
