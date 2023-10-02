@@ -89,7 +89,7 @@
 
             //Predicate Delegates
             Console.WriteLine("Predicate Delegate:");
-            Predicate<string> upperCase =  isUpperCase;
+            Predicate<string> upperCase = isUpperCase;
             bool res = upperCase(name);
             Console.WriteLine($"Is uppercase: {res}");
 

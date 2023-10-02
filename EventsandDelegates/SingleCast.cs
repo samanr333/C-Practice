@@ -15,7 +15,7 @@ namespace EventsandDelegates
         }
         static void Main(string[] args)
         {
-            SingleCastDelegate n = new SingleCastDelegate(SingleCast.Greet);
+            SingleCastDelegate n = new SingleCastDelegate(Greet);
             Console.WriteLine("Enter your name.");
             var name = Console.ReadLine();
             n(name);

@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +16,7 @@ namespace Csharp_practice
             try
             {
                 double division = a / b;
-                if (b==0)
+                if (b == 0)
                 {
                     throw new DivideByZeroException("Error");
                 }
@@ -37,4 +37,3 @@ namespace Csharp_practice
         }
     }
 }
-*/

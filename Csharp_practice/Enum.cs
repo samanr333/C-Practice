@@ -1,10 +1,4 @@
-﻿/*using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Csharp_practice
+﻿/*namespace Csharp_practice
 {
     enum f1cars
     {
@@ -21,7 +15,7 @@ namespace Csharp_practice
             int position = (int)f1cars.Ferrari;
             Console.WriteLine($"The position of {name} is {position}.");
         }
-        
+
     }
 }
 */
